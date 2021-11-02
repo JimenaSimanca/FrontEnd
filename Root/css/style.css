@@ -1,0 +1,87 @@
+header {
+    background-color:#E5E5E5;
+}
+.perfil {
+    display:block;
+    margin:auto;
+    height:146.37px;
+    width:100px;
+}
+h1 {
+    color: #005677;
+    background-color:#C4C4C4;
+    font-family: 'Times New Roman';
+    font-size : 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    color: #005677;
+    background-color:#C4C4C4;
+    font-family: 'Times New Roman';
+    font-size : 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.datos-personales {
+    font-size:15px;
+    font-style:italic;
+    font-weight:bold;
+    line-height:25px;
+    margin-right:5px; 
+}
+.formacion-academica{
+    font-family: 'Times New Roman';
+    font-size :15px;
+    font-weight:700;
+    line-height:25px;
+    text-align:left;
+    text-transform:none; 
+}
+.formacion-año{
+    margin-left:35px;
+    line-height:25px;
+}
+.descripcion-formacion{
+    margin-left: 75px;
+    line-height:25px;
+}
+.experiencia-laboral{
+    font-family: 'Times New Roman';
+    font-size :15px;
+    font-weight:700;
+    line-height:25px;
+    text-align:left;
+    text-transform:none; 
+}
+.experiencia-año{
+    margin-left:38px;
+    line-height:25px;
+}
+.descripcion-experiencia{
+    margin-left:75px;
+    line-height:25px;
+}
+footer{
+    background-color:#005677;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700px;
+    position: flex;
+    text-align: center;
+    text-transform: uppercase;
+}
+.redes {
+    display: flex;
+    justify-content: space-between;        
+    align-items: center;
+    margin: 10px auto;
+    width: 100px;
+    list-style: none;
+}
+img {
+    width: 20px;
+    height: 20px;
+    left: 772px;
+    position: flex;
+}
