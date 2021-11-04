@@ -1,0 +1,68 @@
+html {
+    background-image:url("../img/ravenclaw-pastel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+}
+nav .color {
+    color:#3b014d;
+    font-family:'Heebo', sans-serif;
+    font-size:15px;
+    font-weight:900;
+}
+h1 {
+    color: #3b014d;
+    background-color:rgba(249, 226, 255,0.5);
+    font-family:'Fruktur', 'cursive';
+    font-size :45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    color: #3b014d;
+    background-color: rgba(249, 226, 255,0.5);
+    font-family: 'Ceviche One', 'cursive';
+    font-size : 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+p {
+    color: #3b014d;
+    background-color: rgba(249, 226, 255,0.5);
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+
+}
+.importante{
+    text-decoration: underline;
+}
+footer {
+    background-color:rgba(249, 226, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    margin-block-start: 121px;
+
+}
+footer > p {
+    color: #3b014d;
+    font-family: 'Ceviche One', 'cursive';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 84.69%;
+    margin: 0;
+    text-transform: uppercase;
+}
+  footer > a > i {
+    margin-inline-start: 26px;
+    color:#3b014d
+}
+img {
+    width: 20px;
+    height: 20px;
+    left: 772px;
+    position: flex;
+}

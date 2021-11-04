@@ -1,37 +1,49 @@
 header {
-    background-color:#E5E5E5;
+    background-image:url("../img/hp-rayo.png");
+    background-size: contain;
+    background-repeat: repeat-x;
 }
 .perfil {
     display:block;
     margin:auto;
-    height:146.37px;
-    width:100px;
+    height:160px;
+    width:150px;
+}
+nav .color {
+    color:#3b014d;
+    font-family:'Heebo', sans-serif;
+    font-size:15px;
+    font-weight:900;
 }
 h1 {
-    color: #005677;
-    background-color:#C4C4C4;
-    font-family: 'Times New Roman';
-    font-size : 35px;
+    color: #3b014d;
+    background-color:#f9e2ff;
+    font-family:'Fruktur', 'cursive';
+    font-size :45px;
     text-align: center;
     text-transform: uppercase;
 }
 h2 {
-    color: #005677;
-    background-color:#C4C4C4;
-    font-family: 'Times New Roman';
-    font-size : 20px;
+    color: #3b014d;
+    background-color:#f9e2ff;
+    font-family: 'Ceviche One', 'cursive';
+    font-size : 30px;
     text-align: left;
     text-transform: uppercase;
 }
 .datos-personales {
+    font-family: 'Heebo', sans-serif;
     font-size:15px;
     font-style:italic;
-    font-weight:bold;
+    font-weight:900;
     line-height:25px;
     margin-right:5px; 
 }
+.sin-tabulado{
+    font-family: 'Heebo', sans-serif;
+}
 .formacion-academica{
-    font-family: 'Times New Roman';
+    font-family: 'Heebo', sans-serif;
     font-size :15px;
     font-weight:700;
     line-height:25px;
@@ -39,15 +51,17 @@ h2 {
     text-transform:none; 
 }
 .formacion-año{
+    font-family: 'Heebo', sans-serif;
     margin-left:35px;
     line-height:25px;
 }
 .descripcion-formacion{
+    font-family: 'Heebo', sans-serif;
     margin-left: 75px;
     line-height:25px;
 }
 .experiencia-laboral{
-    font-family: 'Times New Roman';
+    font-family: 'Heebo', sans-serif;
     font-size :15px;
     font-weight:700;
     line-height:25px;
@@ -55,15 +69,17 @@ h2 {
     text-transform:none; 
 }
 .experiencia-año{
+    font-family: 'Heebo', sans-serif;
     margin-left:38px;
     line-height:25px;
 }
 .descripcion-experiencia{
+    font-family: 'Heebo', sans-serif;
     margin-left:75px;
     line-height:25px;
 }
 footer {
-    background: #005677;
+    background: #3b014d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,16 +88,17 @@ footer {
 
 }
 footer > p {
-    color: #ffffff;
-    font-family: "Times New Roman";
+    color: #f9e2ff;
+    font-family: 'Ceviche One', 'cursive';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 84.69%;
     margin: 0;
     text-transform: uppercase;
 }
-  footer > img {
+  footer > a > i {
     margin-inline-start: 26px;
+    color:#f9e2ff
 }
 img {
     width: 20px;
