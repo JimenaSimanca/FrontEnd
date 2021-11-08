@@ -1,0 +1,156 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #000;
+    width: 100%;
+    height: 20px;
+}
+.grandes-ofertas{
+    color:#FFFFFF; 
+    font-size: 10;
+}
+.menu-superior{
+    position: absolute;
+    color: #FFFFFF;
+    font-size:10;
+    right:40px;
+}
+#head{
+    background-color: #F0A83E;
+}
+.catalogo{
+    position: relative;
+    background-color: #F0A83E;
+    left:650px;
+    color:#FFFFFF;
+    box-sizing: content-box;
+}
+.encabezado{
+    box-sizing: content-box;
+    position: relative;
+    width: 100%;
+    height: 490px;
+}
+.saludo{
+    box-sizing: content-box;
+    width: 365px;
+    height: 45px;
+    background-color: #FFFFFF;
+    z-index: 10;
+    right: 100px;
+    position:absolute;
+    top:300px;
+    text-align: center;
+    font-size:30px;
+}
+section >.oferta{
+    position:absolute;
+    top:350px;
+    right: 180px;
+    z-index: 10;
+}
+button {
+    position:absolute;
+    top:400px;
+    right: 230px; 
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
+#paw{
+    position: relative;
+    width: 67px;
+    height: 71px;
+    left: 650px;
+}
+#destacado{
+    color:#3C2313;
+    position:relative;
+    font-size: 40px;
+    left:500px;
+}
+.categorias{
+    color:#666666;
+    position:relative;
+    font-size: 15px;
+    left:528px;
+}
+#img-ch{
+    position:relative;
+    width: 262.03px;
+    height: 266.86px;
+    padding-left: 40px;
+}
+#t-img-ch{
+    position: relative;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    left:90px;
+}
+#p-ch{
+    position: relative;
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    left:110px;
+}
+#img-co{
+    position:absolute;
+    width: 262.03px;
+    height: 266.86px;
+    left:500px;
+    top:800px;
+    z-index: 10;
+}
+#t-img-co{
+    position: absolute;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: bold;
+    left:565px;
+    top:1070px;
+    z-index: 10;
+}
+#p-co{
+    position: absolute;
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+    left:620px;
+    top:1090px;
+    z-index: 10;
+}
+#img-hu{
+    position:absolute;
+    width: 262.03px;
+    height: 266.86px;
+    right:150px;
+    top:800px;
+    z-index: 10;
+}
+#t-img-hu{
+    position: absolute;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: bold;
+    right:230px;
+    top:1070px;
+    z-index: 10;
+}
+#p-hu{
+    position: absolute;
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+    right:270px;
+    top:1090px;
+    z-index: 10;
+}
+footer{
+    color:#FFFFFF;
+    background-color: #000000;
+    text-align: center;
+}
